@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B8DD0D1C07AF490055E12E /* polish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10B8DD0C1C07AF490055E12E /* polish.txt */; };
 		10C34E631BF7D9FB007D8A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C34E621BF7D9FB007D8A96 /* AppDelegate.m */; };
 		10C34E661BF7D9FB007D8A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C34E651BF7D9FB007D8A96 /* main.m */; };
 		10C34E691BF7D9FB007D8A96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C34E681BF7D9FB007D8A96 /* ViewController.m */; };
 		10C34E6B1BF7D9FB007D8A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C34E6A1BF7D9FB007D8A96 /* Assets.xcassets */; };
 		10C34E6E1BF7D9FB007D8A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C34E6C1BF7D9FB007D8A96 /* Main.storyboard */; };
 		10C34E791BF7D9FB007D8A96 /* anagramGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C34E781BF7D9FB007D8A96 /* anagramGeneratorTests.m */; };
+		10C34E8A1BF7EF2C007D8A96 /* slowa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10C34E891BF7EF2C007D8A96 /* slowa.txt */; };
+		10C34E8C1BF80839007D8A96 /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10C34E8B1BF80839007D8A96 /* file.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10B8DD0C1C07AF490055E12E /* polish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polish.txt; sourceTree = "<group>"; };
 		10C34E5E1BF7D9FB007D8A96 /* anagramGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anagramGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C34E611BF7D9FB007D8A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10C34E621BF7D9FB007D8A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		10C34E741BF7D9FB007D8A96 /* anagramGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anagramGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C34E781BF7D9FB007D8A96 /* anagramGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anagramGeneratorTests.m; sourceTree = "<group>"; };
 		10C34E7A1BF7D9FB007D8A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C34E891BF7EF2C007D8A96 /* slowa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = slowa.txt; path = ../../../slowa.txt; sourceTree = "<group>"; };
+		10C34E8B1BF80839007D8A96 /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = file.txt; path = ../../../file.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				10C34E6A1BF7D9FB007D8A96 /* Assets.xcassets */,
 				10C34E6C1BF7D9FB007D8A96 /* Main.storyboard */,
 				10C34E6F1BF7D9FB007D8A96 /* Info.plist */,
+				10C34E8B1BF80839007D8A96 /* file.txt */,
+				10B8DD0C1C07AF490055E12E /* polish.txt */,
+				10C34E891BF7EF2C007D8A96 /* slowa.txt */,
 				10C34E641BF7D9FB007D8A96 /* Supporting Files */,
 			);
 			path = anagramGenerator;
@@ -189,6 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10C34E6B1BF7D9FB007D8A96 /* Assets.xcassets in Resources */,
+				10C34E8A1BF7EF2C007D8A96 /* slowa.txt in Resources */,
+				10B8DD0D1C07AF490055E12E /* polish.txt in Resources */,
+				10C34E8C1BF80839007D8A96 /* file.txt in Resources */,
 				10C34E6E1BF7D9FB007D8A96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +403,7 @@
 				10C34E7F1BF7D9FB007D8A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10C34E801BF7D9FB007D8A96 /* Build configuration list for PBXNativeTarget "anagramGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +412,7 @@
 				10C34E821BF7D9FB007D8A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
